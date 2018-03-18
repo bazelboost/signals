@@ -20,7 +20,14 @@ cc_library(
 	],
 	deps = [
 		"@com_github_bazelboost_config//:config",
+		"@com_github_bazelboost_function//:function",
 		"@com_github_bazelboost_type_traits//:type_traits",
-		"@com_github_bazelboost_iterator//:iterator"
+		"@com_github_bazelboost_any//:any",
+		"@com_github_bazelboost_smart_ptr//:smart_ptr",
+		"@com_github_bazelboost_utility//:utility",
+		"@com_github_bazelboost_iterator//:iterator",
+		"@com_github_bazelboost_core//:core",
+		"@com_github_bazelboost_optional//:optional",
+		"@com_github_bazelboost_mpl//:mpl"
 	],
 )
